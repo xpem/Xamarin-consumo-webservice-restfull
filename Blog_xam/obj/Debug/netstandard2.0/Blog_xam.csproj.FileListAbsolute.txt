@@ -1,0 +1,15 @@
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\bin\Debug\netstandard2.0\Blog_xam.deps.json
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\bin\Debug\netstandard2.0\Blog_xam.dll
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\obj\Debug\netstandard2.0\Blog_xam.csprojAssemblyReference.cache
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\obj\Debug\netstandard2.0\Blog_xam.csproj.CoreCompileInputs.cache
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\obj\Debug\netstandard2.0\Blog_xam.AssemblyInfoInputs.cache
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\obj\Debug\netstandard2.0\Blog_xam.AssemblyInfo.cs
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\bin\Debug\netstandard2.0\ref\Blog_xam.dll
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\bin\Debug\netstandard2.0\Blog_xam.pdb
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\obj\Debug\netstandard2.0\Blog_xam.dll
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\obj\Debug\netstandard2.0\ref\Blog_xam.dll
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\obj\Debug\netstandard2.0\Blog_xam.pdb
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\obj\Debug\netstandard2.0\Post.xaml.g.cs
+C:\Users\emanu\Source\Repos\Blog_xam\Blog_xam\obj\Debug\netstandard2.0\XamlC.stamp

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Padding="0,20,0,0"
+             Title="Post"
+             x:Class="Blog_xam.Post">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10,0,10,5" VerticalOptions="Start" Orientation="Vertical">
+                <ActivityIndicator x:Name="ActInd" IsRunning="False"
+                         AbsoluteLayout.LayoutBounds="0.5,0.5,100,100" 
+                         AbsoluteLayout.LayoutFlags="PositionProportional"
+                         Color="DeepSkyBlue" />
+                <StackLayout VerticalOptions="Start" Orientation="Vertical" BackgroundColor="Azure">
+                    <Label Text="{Binding title}" TextColor="Gray" FontAttributes="Bold" FontSize="Micro"/>
+                    <Label Text="{Binding body}" TextColor="Black" FontAttributes="Bold" FontSize="Small"/>
+                </StackLayout>
+                <BoxView 
+            HeightRequest="1" 
+            BackgroundColor="Black" 
+            HorizontalOptions="FillAndExpand" />
+                <ListView x:Name="Lst_com"  HasUnevenRows="True" SelectionMode="None" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Footer="" >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                                    <Grid HorizontalOptions="FillAndExpand">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition  Width ="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Label  Text="{Binding name}" Grid.Row="0" Grid.Column="0"  FontSize="Small" TextColor="Black" />
+                                        <Label  Text="{Binding body}" Grid.Row="1" Grid.Column="0" FontSize="Micro" TextColor="DarkBlue" FontAttributes="Italic"/>
+                                    </Grid>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
